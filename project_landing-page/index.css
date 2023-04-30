@@ -5,10 +5,11 @@ h1{
 .header  {
     font-family: monospace;
     background:#1f2937;
-    padding-inline: 130px;
+    padding-inline: 50px;
+    padding-left: 130px;
     display:flex;
     justify-content: flex-start;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
     padding-bottom: 100px;
 
@@ -18,16 +19,13 @@ h1{
 
   .header-top{
     display:flex;
-    
     margin-bottom: 50px;
   }
 
   .right_elements{
     display:flex;
     align-self: flex-end;
-    justify-content: flex-end;
-    
-
+    margin-left: auto;
   }
 
 
@@ -37,7 +35,8 @@ h1{
     font-weight: 900;
     color:#f9faf8;
     display: flex;
-    align-self: flex-start;
+    justify-self: flex-start;
+
 
     
   }
@@ -55,6 +54,8 @@ h1{
     display:flex;
     margin:0 auto;
     gap:8px;
+    display:flex;
+    justify-content: right;
   }
 
   .headermain{
@@ -64,10 +65,6 @@ h1{
   }
 
   .headerbody{
-    display:flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    align-items: flex-start;
     font-weight:extra-bold;
     color:#f9faf8
     
@@ -77,6 +74,7 @@ h1{
   .image{
     display:flex;
     align-self: center;
+    justify-self: flex-start;
 
 
   }
@@ -84,9 +82,31 @@ h1{
   .button1{
     background-color: rgb(31, 129, 241);
     color:#e5e7eb;
-    border-radius: 20%;
+    border-width: 0;
+    font-weight: bold;
+    border-radius: 4px;
+    padding:5px;
+    padding-inline: 20px;
+
 
   }
+
+  .information{
+    display: flex;
+
+    
+  }
+  .info-head{
+    display: flex;
+    justify-content: center;
+    font-family:monospace;
+    color: #1f2937;
+    font-weight:bolder;
+    font-size: 36px;
+
+  }
+
+  
   
 
 
