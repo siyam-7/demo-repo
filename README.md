@@ -1,4 +1,1 @@
-# Demo
-
-description
-Hello Odin!
+This is a sample repository.
